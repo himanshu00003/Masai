@@ -5,7 +5,7 @@ import User from "./user.js";
 
 async function main() {
     // Create a user
-    const user = new User("Gurkaran", "securePass123");
+    const user = new User("Himanshu", "passwordSecure789");
     await user.authenticate();
 
     // Create smart devices
